@@ -38,7 +38,7 @@ QuickNews tackles the challenge of automated news aggregation and publishing thr
 ### Data Collection & Processing
 - Utilizes DuckDuckGo API for fetching recent news articles
 - Implements the `newspaper3k` library for article extraction and parsing
-- Uses NLTK for natural language processing and text summarization
+- Uses the facebook/bart-large-cnn model for natural language processing and text summarization
 
 ### Content Generation
 - Employs extractive summarization techniques to maintain factual accuracy
